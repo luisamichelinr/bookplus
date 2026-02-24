@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6, p, a, span {
+    color: black;
+}
+
+h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    width: 40vw;
+}
+
+
+.novidades {
+    color:  rgb(156 163 175);
+    font-size: 0.9vw;
+}
+
+h3 {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+select {
+    font-size: 0.9vw ! important;
+    padding: 0.3vw ! important;
+}
+
+.linha {
+    background-color: rgb(0 31 63);
+    height: 0.1vw;
+    width: 2vw;
+}
+
+.botao {
+    padding: 1vw ! important;
+    font-size: 1vw ! important;
+    border-radius: 3vw ! important;
+}
+
+.tela {
+    max-width: 80vw !important;
+    margin: 1vw auto;
+}

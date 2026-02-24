@@ -1,0 +1,25 @@
+.capa {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.categoria {
+    color: rgb(0 31 63 / 0.5);
+    font-weight: 700;
+    font-size: 0.9vw;
+}
+
+.titulo {
+    color: rgb(30 58 138);
+    font-weight: bold;
+    font-size: 1.2vw;
+    margin-top: 0px;
+}
+
+.autor {
+    color: rgb(0 31 63 / 0.5);
+    font-size: 0.9vw;
+    font-style: italic;
+    margin-top: 0px;
+}
