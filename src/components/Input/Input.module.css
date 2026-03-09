@@ -1,0 +1,66 @@
+.tela {
+    padding: 10vw 9vw 2vw;
+}
+
+.tela h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.tela p {
+    font-size: 1vw;
+}
+
+.tela input {
+    border: rgb(0 31 63) solid 1px;
+    border-radius: 3vw !important;
+    padding: 0.3vw 1vw ! important;
+    font-size: 0.9vw ! important;
+}
+
+.tela label {
+    font-size: 0.9vw ! important;
+}
+
+.botao {
+    border-radius: 3vw ! important;
+    font-size: 0.9vw ! important;
+    padding: 0.5vw 1vw ! important;
+}
+
+.tela img {
+    height: 30vw;
+}
+
+@media (max-width: 426px) {
+    .tela {
+        padding: 10vw 5vw 2vw;
+    }
+
+    .tela h2 {
+        font-size: 4vw;
+    }
+
+    .tela p {
+        font-size: 2.5vw;
+    }
+
+    .tela input {
+        font-size: 2.2vw ! important;
+        padding: 1vw ! important;
+    }
+
+    .tela label {
+        font-size: 2.2vw ! important;
+    }
+
+    .tela img {
+        height: 40vw;
+    }
+
+    .botao {
+        padding: 1vw 2vw ! important;
+        font-size: 2.5vw ! important;
+        border-radius: 10vw ! important;
+    }
+}
