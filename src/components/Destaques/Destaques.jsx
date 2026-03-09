@@ -16,9 +16,9 @@ export default function Destaques({titulo}) {
                     </button>
                     <select
                             className={"form-select form-select-sm " + css.select}>
-                            <option>Ordenar por: Relevância</option>
-                            <option>Mais recentes</option>
-                            <option>Menor preço</option>
+                            <option>Filtrar por</option>
+                            <option>Autor</option>
+                            <option>Categoria</option>
                     </select>
                 </div>
             </div>
@@ -74,4 +74,5 @@ export default function Destaques({titulo}) {
             </div>
         </section>
 )
+
 }
