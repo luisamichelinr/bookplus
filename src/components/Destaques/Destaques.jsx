@@ -1,10 +1,9 @@
 import css from './Destaques.module.css'
 import Livro from '../Livro/Livro.jsx'
-import Botao from "../Botao/Botao.jsx";
 import {useEffect, useState} from "react";
 
 
-export default function Destaques({titulo, input, setInput}) {
+export default function Destaques({titulo, input}) {
     const [livros, setLivros] = useState([]);
 
     async function buscarLivros() {
